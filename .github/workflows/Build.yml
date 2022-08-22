@@ -23,5 +23,5 @@ jobs:
       # Publish an artifact
       - uses: actions/upload-artifact@v2
         with:
-          name: DACPAC
-          path: ${{ github.workspace }}/bin/Release/
+          name: CustomerDatabase.dacpac
+          path: ${{ github.workspace }}\bin\Release\
